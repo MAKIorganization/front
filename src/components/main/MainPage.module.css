@@ -1,0 +1,82 @@
+.main_orgImg{
+    width: 100%;
+    display: block;
+}
+.main_aboutSection{
+    position: relative;
+    width: 100%;
+}
+.main_aboutSection_title{
+    position:absolute;
+    color: white;
+    top: 519px;
+    left: 7%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+
+}
+.main_aboutSection_title h1{
+    font-size: 40px;
+}
+.main_aboutSection_title p{
+    width: 775px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.main_missionSection{
+    margin: 58px 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+
+}
+.main_missionSection_title h2{
+    margin-left: 10%;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.main_missionSection_description{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+.main_missionSection_description_image{
+    width: 593px;
+    height: 593px;
+    border-radius: 20px;
+}
+.main_missionSection_description_text{
+    background-color: #F68181;
+    color: white;
+    height: 593px;
+    width: 720px;
+    border-radius: 20px;
+}
+.main_missionSection_description_text p{
+    margin: 58px 29px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.main_line{
+    width: 100%;
+    height: 2px;
+    background-color: #53D042;
+}
+.main_vision{
+    margin: 80px 0 80px 10%;
+}
+.main_vision h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.main_vision p{
+    width: 1181px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin-top: 64px;
+}
