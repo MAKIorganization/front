@@ -3,8 +3,9 @@ import image from "../../assets/f4d1af8353a67e3fc1fe7d0eed7e0dd1_1.png"
 import styles from "./MainPage.module.css"
 import image2 from "../../assets/23884a02dbf73023b16014258f108ada_1.png"
 import image3 from "../../assets/circulation_1.png"
-import MyCard from "../../widgets/MyCard";
+import MyCard from "../../widgets/MyCard/MyCard";
 import instagram_icon from "../../assets/instagram_icon.png"
+import Footer from "../footer/Footer";
 
 function MainPage() {
     return(
@@ -64,6 +65,7 @@ function MainPage() {
                 <p>@maki.kg</p>
             </div>
         </section>
+        <Footer/>
     </>
     )
 }
