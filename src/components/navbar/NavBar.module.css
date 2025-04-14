@@ -1,16 +1,16 @@
 .container{
     height: 94px;
-    background-color: #F68181;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: white;
+    color: #333333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .container_title h3{
     width: 131px;
     font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    /* font-weight: 100; */
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     text-align: center;
 }
@@ -18,8 +18,19 @@
     display: flex;
 }
 .container_navigation ul{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     list-style-type: none;
     display: flex;
     width: 611px;
     justify-content: space-between;
+}
+.container_navigation ul li{
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: 500;
+
+}
+.container_navigation ul li:hover{
+    color: #4318D1;
 }
