@@ -1,18 +1,19 @@
 import styles from './Navbar.module.css'
+import { Link } from 'react-router-dom'
 
 function NavBar(){
     return(
         <div className={styles.container}>
             <div className={styles.container_title}>
-                <h3>Общественное обьединение садоводов Маки</h3>
+                <h3><Link to="/">Общественное обьединение садоводов Маки</Link></h3>
             </div>
             <div className={styles.container_navigation}>
                 <ul>
-                    <li>О нас</li>
-                    <li>Наше видение</li>
-                    <li>Важность</li>
-                    <li>Пройти тест</li>
-                    <li>Поддержать</li>
+                    <Link>О нас</Link>
+                    <Link>Наше видение</Link>
+                    <Link>Важность</Link>
+                    <Link to="/quiz">Пройти тест</Link>
+                    <Link to="/donation">Поддержать</Link>
                 </ul>
             </div>
         </div>
