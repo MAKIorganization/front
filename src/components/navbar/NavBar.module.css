@@ -13,6 +13,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     text-align: center;
+    color: black !important;
 }
 .container_navigation{
     display: flex;
@@ -24,13 +25,60 @@
     display: flex;
     width: 611px;
     justify-content: space-between;
+    text-decoration: none !important;
 }
 .container_navigation ul li{
     cursor: pointer;
     transition: color 0.3s ease;
-    font-weight: 500;
-
+    font-weight: 500 !important;
 }
-.container_navigation ul li:hover{
+
+.link{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500 !important;
+}
+.link:hover{
     color: #4318D1;
 }
+.dropdown {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .dropbtn {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    color: inherit;
+    padding: 8px 12px;
+  }
+  
+  .icon {
+    margin-left: 6px;
+  }
+  
+  .dropdownContent {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 100;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .dropdownLink {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdownLink:hover {
+    background-color: #f0f0f0;
+  }
+  

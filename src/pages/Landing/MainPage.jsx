@@ -17,7 +17,7 @@ function MainPage() {
             </div>
             <img className={styles.main_orgImg} src={image} alt="" />
         </section>
-        <section className={styles.main_missionSection}>
+        <section id="mission" className={styles.main_missionSection}>
             <div className={styles.main_missionSection_title}>
                 <h2>
                 Миссия
@@ -32,7 +32,7 @@ function MainPage() {
                 </div>
             </div>
         </section>
-        <section className={styles.main_vision}>
+        <section id="vision" className={styles.main_vision}>
             <h2>
                 Наше видение
             </h2>
@@ -45,7 +45,7 @@ function MainPage() {
                 </p>
             </div>
         </section>
-        <section className={styles.main_reasons}>
+        <section id="reasons" className={styles.main_reasons}>
             <h2>
                 Почему это важно?
             </h2>
@@ -55,7 +55,7 @@ function MainPage() {
             <MyCard title="Для бизнеса и предпринимателей" text="Экохаб будет способствовать развитию устойчивых бизнес-моделей, которые ориентированы на защиту природы. Мы будем продвигать принципы корпоративной социальной ответственности и экологически устойчивых бизнес-решений, таких как использование возобновляемых ресурсов, экосертификация и внедрение «зеленых» технологий."/>
             <MyCard title="Для молодежи и образования" text="Мы будем активно работать с молодежью, обучая их важности сохранения природы, а также помогать образовательным учреждениям интегрировать экологические тематики в учебные программы. Наши инициативы будут направлены на создание экологически сознательного поколения, готового к решению вызовов, стоящих перед планетой."/>
         </section>
-        <section className={styles.main_socialMedia}>
+        <section id="socNet" className={styles.main_socialMedia}>
             <h2>
                 Мы в социальных сетях
             </h2>

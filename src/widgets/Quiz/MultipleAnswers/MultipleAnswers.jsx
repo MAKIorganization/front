@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form'
 import { useState } from "react";
 import tickIcon from "../../../assets/iconamoon_check-bold.svg"
 import crossIcon from "../../../assets/maki_cross.svg"
-import { schema } from "./schema";
+import { schema } from "../schema";
 import { yupResolver } from "@hookform/resolvers/yup";
 
 function MultipleAnswers(props) {
