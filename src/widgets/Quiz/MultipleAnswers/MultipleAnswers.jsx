@@ -4,6 +4,8 @@ import { useForm } from 'react-hook-form'
 import { useState } from "react";
 import tickIcon from "../../../assets/iconamoon_check-bold.svg"
 import crossIcon from "../../../assets/maki_cross.svg"
+import { schema } from "./schema";
+import { yupResolver } from "@hookform/resolvers/yup";
 
 function MultipleAnswers(props) {
     const {
@@ -14,6 +16,7 @@ function MultipleAnswers(props) {
         defaultValues: {
             selected: ""
         },
+        resolver: yupResolver(schema),
         mode: "onChange"
     });
     const [answer, setAnswer] = useState(null);    
@@ -35,7 +38,7 @@ function MultipleAnswers(props) {
 
         <form onSubmit={handleSubmit(onSubmit)}>
             <FormControl className={styles.question}>
-            <FormLabel className={styles.title} sx={{display: "flex"}}><li></li>{props.question}</FormLabel>
+            <FormLabel className={styles.title} sx={{display: "flex", color: "black"}}><li></li>{props.question}</FormLabel>
             <RadioGroup>
                 <FormControlLabel className={styles.option} value="0" control={<Radio {...register("selected")}/>} label={props.v1} />
                 <FormControlLabel className={styles.option} value="1" control={<Radio {...register("selected")}/>} label={props.v2} />

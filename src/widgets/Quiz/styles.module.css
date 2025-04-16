@@ -23,6 +23,8 @@
     line-height: 40px !important;
     font-family: "Roboto", sans-serif !important;
     font-style: normal !important;
+    color: black !important;
+
 }
 .writtenRes{
     display: flex;
