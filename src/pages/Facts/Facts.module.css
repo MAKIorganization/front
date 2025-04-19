@@ -1,0 +1,20 @@
+.facts{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-left: 5%;
+    color: #333333;
+    line-height: 40px;
+}
+.aboutEarth, .aboutWater, .aboutProblems, .aboutSolutions{
+    margin: 40px 0;
+}
+.aboutEarth h3, .aboutWater h3, .aboutProblems h3, .aboutSolutions h3{
+    font-size: 30px;
+}
+.aboutWater p, .aboutEarth ul, .aboutProblems ul, .aboutSolutions ol{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.listOfSolutions li{
+    font-size: 16px;
+}

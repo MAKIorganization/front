@@ -41,6 +41,7 @@ function NavBar(){
                             </div>
                         )}
                     </li>
+                    <Link to="/facts" className={styles.link}>Факты</Link>
                     <Link to="/quiz" className={styles.link}>Пройти тест</Link>
                     <Link to="/donation" className={styles.link}>Поддержать</Link>
                 </ul>
