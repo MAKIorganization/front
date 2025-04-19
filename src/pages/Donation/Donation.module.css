@@ -37,14 +37,14 @@
 .optimaBank h3, .mBank h3{
     margin-top: 16px;
 }
-h1{
+.title{
     font-size: 40px;
     margin: 36px 0;
 }
-h4{
+.option{
     font-size: 26px;
 }
-h1, h4{
+.title, .option{
     margin-left: 10%;
     font-family: "Roboto", sans-serif;
     font-style: normal;

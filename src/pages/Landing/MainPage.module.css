@@ -10,7 +10,7 @@
 .main_aboutSection_title{
     position:absolute;
     color: white;
-    top: 70%;  /* adjust as needed */
+    top: 70%;
     left: 45%;
     transform: translate(-50%, -50%);
     font-family: "Roboto", sans-serif;

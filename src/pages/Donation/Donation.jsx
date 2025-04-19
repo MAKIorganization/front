@@ -10,8 +10,8 @@ function Donation(){
                 зато сохраняем природу и заботимся о здоровье человечества. Если хочешь, 
                 ты можешь поддержать нас финансово!
             </p>
-            <h1>Способы поддержки</h1>
-            <h4>Перевод на счета</h4>
+            <h1 className={styles.title}>Способы поддержки</h1>
+            <h4 className={styles.option}>Перевод на счета</h4>
             <div className={styles.bankRequisites}>
                 <div className={styles.optimaBank}>
                     <img src={optimaImage} alt="" />
