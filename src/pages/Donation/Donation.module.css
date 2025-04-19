@@ -1,0 +1,52 @@
+.volunteerDonationPrompt{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #333333;
+    line-height: 25px;
+    margin: 40px auto;
+    width: 1050px;
+}
+.volunteerDonationPrompt span{
+    font-weight: 1000;
+}
+.bankRequisites{
+    display: flex;
+    justify-content: space-around;
+    width: 1050px;
+    margin: 36px auto 45px auto;
+}
+.optimaBank, .mBank{
+    padding: 40px 30px;
+    border-radius: 20px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.optimaBank{
+    background-color: #F55555;
+}
+.mBank{
+    background-color: #017F8D;
+}
+.optimaBank img, .mBank img{
+    width: 450px;
+    height: 221px;
+    border-radius: 20px;
+}
+.optimaBank h3, .mBank h3{
+    margin-top: 16px;
+}
+h1{
+    font-size: 40px;
+    margin: 36px 0;
+}
+h4{
+    font-size: 26px;
+}
+h1, h4{
+    margin-left: 10%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #333333;
+}
