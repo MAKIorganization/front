@@ -93,7 +93,7 @@
     background-color: #F68181;
     display: flex;
     justify-content: center;
-    width: 1223px;
+    /* width: 1223px; */
     border-radius: 20px;
     margin: 0 auto;
     padding: 36px 32px;
@@ -137,4 +137,192 @@
     font-size: 40px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+}
+@media (min-width: 1200px) {
+    .main_vision_description{
+        width: 1200px;
+    }
+    .main_orgImg{
+        width: 1138px;
+        height: 753px;
+    }
+    .main_missionSection_description_text{
+        height: 593px;
+        width: 580px;
+    }
+    .main_missionSection_description_text p{
+        margin: 29px;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    .main_missionSection_description_image img{
+        width: 593px;
+        height: 593px;
+    }
+    .main_missionSection_description_image {
+        width: 593px;
+        height: 593px;
+    }
+}
+@media (max-width: 1200px) {
+    .main_vision_description{
+        width: 1000px;
+    }
+    .main_orgImg{
+        width: 1038px;
+        height: 653px;
+    }
+    .main_missionSection_description_text p{
+        margin: 29px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .main_missionSection_description_text{
+        height: 493px;
+        width: 480px;
+    }
+    .main_missionSection_description_image img{
+        height: 493px;
+        width: 480px;
+    }
+    .main_missionSection_description_image {
+        height: 493px;
+        width: 480px;
+    }
+}
+@media (max-width: 992px) {
+    .main_vision_description{
+        width: 800px;
+    }
+    .main_orgImg{
+        width: 838px;
+        height: 603px;
+    }
+    .main_aboutSection_title p{
+        width: 600px;
+    }
+    .main_missionSection_description_text p{
+        margin: 29px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .main_missionSection_description_text{
+        height: 403px;
+        width: 400px;
+    }
+    .main_missionSection_description_image img{
+        height: 403px;
+        width: 400px;
+    }
+    .main_missionSection_description_image {
+        height: 403px;
+        width: 400px;
+    }
+    .main_vision_image img{
+        width: 840px;
+        height: 503px;
+    }
+}
+@media (max-width: 768px) {
+    .main_vision_description{
+        width: 500px;
+    }
+    .main_orgImg{
+        width: 438px;
+        height: 303px;
+    }
+    .main_aboutSection_title h1{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .main_aboutSection_title p{
+        width: 350px;
+        font-size: 8px;
+        line-height: 15px;
+    }
+    .main_missionSection_description_text p{
+        margin: 29px;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .main_missionSection_description_text{
+        height: 303px;
+        width: 300px;
+    }
+    .main_missionSection_description_image img{
+        height: 303px;
+        width: 300px;
+    }
+    .main_missionSection_description_image {
+        height: 303px;
+        width: 300px;
+    }
+    .main_vision_image img{
+        width: 540px;
+        height: 383px;
+    }
+}
+@media (max-width: 480px) {
+    .main_vision_description{
+        width: 200px;
+    }
+    .main_missionSection_title h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .main_missionSection_description{
+        display: block;
+    }
+    .main_missionSection_description_text{
+        display: flex;
+        align-items: center;
+        margin: 0 auto 10px auto;
+    }
+    .main_missionSection_description_image{
+        margin: 0 auto 0 auto;
+    }
+    .main_missionSection_description_text p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .main_vision h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .main_vision_image img{
+        width: 340px;
+        height: 263px;
+    }
+    .main_orgImg{
+        width: 380px;
+        height: 283px;
+    }
+    .main_aboutSection_title p{
+        width: 320px;
+        font-size: 6px;
+        line-height: 15px;
+    }
+    .main_vision_description p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .main_reasons h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .main_socialMedia h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .main_socialMedia_desc img{
+        height: 20px;
+        width: 20px;
+    }
+    .main_socialMedia_desc p{
+        font-size: 20px;
+    }
 }

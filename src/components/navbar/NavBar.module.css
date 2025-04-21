@@ -81,4 +81,19 @@
   .dropdownLink:hover {
     background-color: #f0f0f0;
   }
-  
+@media (max-width: 768px) {
+  .container_navigation ul{
+    width: 400px;
+  }
+  .container_navigation ul{
+    font-size: 12px;
+  }
+  .dropdownContent {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .container_navigation ul{
+    display: none;
+  }
+}

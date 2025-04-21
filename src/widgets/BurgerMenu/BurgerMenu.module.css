@@ -1,0 +1,54 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.burgerMenuWrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .burger {
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .dropdownMenu {
+    margin-top: 1.6rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1rem;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 200px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .dropdownSection {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submenu {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+  }
+  
+  .dropdownLink {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+  }
+  

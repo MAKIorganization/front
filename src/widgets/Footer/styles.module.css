@@ -47,3 +47,27 @@
     cursor: pointer;
 
 }
+@media (max-width: 992px) {
+    .footerIntro h2{
+        width: 250px;
+    }
+    .footerIntro p{
+        width: 250px;
+    }
+}
+@media (max-width: 768px) {
+    .footerIntro h2, .footerNavigation h2, .footerContacts h2{
+        font-size: 20px;
+    }
+    .footerIntro p, .footerNavigation ul li, .footerContacts span{
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .footerIntro{
+        display: none;
+    }
+    .footerContacts{
+        width: 150px;
+    }
+}

@@ -18,3 +18,36 @@
     color: #333333;
     line-height: 25px;
 }
+@media (min-width: 1200px) {
+    .main_reasons_list_card{
+        width: 1200px;
+    }
+}
+@media (max-width: 1200px) {
+    .main_reasons_list_card{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main_reasons_list_card{
+        width: 800px;
+    }
+}
+@media (max-width: 768px) {
+    .main_reasons_list_card{
+        width: 500px;
+    }
+}
+@media (max-width: 480px) {
+    .main_reasons_list_card{
+        width: 200px;
+    }
+    .main_reasons_list_card h3{
+        font-size: 15px;
+    }
+    .main_reasons_list_card p{
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
