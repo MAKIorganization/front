@@ -14,14 +14,16 @@ If you are developing a production application, we recommend using TypeScript an
 ## To start K8s deployment
 
 Prerequisites:
-- Docker
-- Minikube
-- Kubectl
+- Docker https://www.docker.com/products/docker-desktop/
+- Minikube https://kubernetes.io/docs/tasks/tools/
+- Kubectl https://kubernetes.io/docs/tasks/tools/
 
 bash:
-1. docker build -t your-frontend-image:v2
-2. minikube image load your-frontend-image:v2
-3. Go to "k8s" directory and write commands
-kubectl apply -f deployment/frontend-deployment.yaml
-kubectl apply -f deployment/frontend-service.yaml
-4. Acces the app through command   minikube service frontend-service
+1. npm i
+2. minikube start
+3. docker build -t orozobekovt/front:latest
+4. minikube image load orozobekovt/front:latest
+5. cd k8s/
+6. kubectl apply -f deployment/frontend-deployment.yaml
+7. kubectl apply -f deployment/frontend-service.yaml
+8. minikube service frontend-service
