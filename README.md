@@ -10,3 +10,18 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## To start K8s deployment
+
+Prerequisites:
+- Docker
+- Minikube
+- Kubectl
+
+bash:
+1. docker build -t your-frontend-image:v2
+2. minikube image load your-frontend-image:v2
+3. Go to "k8s" directory and write commands
+kubectl apply -f deployment/frontend-deployment.yaml
+kubectl apply -f deployment/frontend-service.yaml
+4. Acces the app through command   minikube service frontend-service
