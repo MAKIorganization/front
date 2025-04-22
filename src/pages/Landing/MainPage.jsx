@@ -4,7 +4,7 @@ import styles from "./MainPage.module.css"
 import image2 from "../../assets/23884a02dbf73023b16014258f108ada_1.png"
 import image3 from "../../assets/circulation_1.png"
 import MyCard from "../../widgets/MyCard/MyCard";
-import instagram_icon from "../../assets/instagram_icon.png"
+import instagram_icon from "../../assets/Instagram_icon.png"
 import Footer from "../../components/footer/Footer";
 
 function MainPage() {

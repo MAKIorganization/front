@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import styles from './Navbar.module.css'
+import styles from './NavBar.module.css'
 import { Link } from 'react-router-dom'
 import BurgerMenu from '../../widgets/BurgerMenu/BurgerMenu';
 
