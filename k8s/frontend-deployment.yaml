@@ -1,22 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend-deployment
-  labels:
-    app: frontend
+  name: front-deployment
 spec:
-  replicas: 3  # Number of pods you want
+  replicas: 1
   selector:
     matchLabels:
-      app: frontend
+      app: front
   template:
     metadata:
       labels:
-        app: frontend
+        app: front
     spec:
       containers:
-        - name: frontend-container
-          image: your-frontend-image:latest  # Replace with your actual image
+        - name: front
+          image: orozobekovt/front:latest
           ports:
-            - containerPort: 80  # Replace with your app's port
-          imagePullPolicy: Always
+            - containerPort: 3000
