@@ -1,9 +1,18 @@
 .list{
-    margin-left: 64px;
+    margin-left: 5%;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     margin-top: 51px;
 }
 .list h1{
     font-size: 40px;
+}
+@media (max-width: 768px) {
+    .list h1{
+        font-size: 25px;
+        margin-left: 5%;
+    }
+    .list{
+        margin: 51px auto 0 auto;
+    }
 }

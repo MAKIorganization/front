@@ -13,7 +13,16 @@
     display: flex;
     align-items: center;
     margin: 10px 0;
+    font-size: 16px;
 }
+  .option .MuiFormControlLabel-label {
+    font-size: 18px; /* ← this changes the label text size */
+    color: #333;
+  }
+  
+  .option .MuiRadio-root {
+    transform: scale(1.3); /* ← this changes the radio button size */
+  }  
 .question{
     margin: 40px 0 !important;
     width: 100%;
@@ -24,7 +33,6 @@
     font-family: "Roboto", sans-serif !important;
     font-style: normal !important;
     color: black !important;
-
 }
 .writtenRes{
     display: flex;
@@ -34,4 +42,28 @@
     font-style: normal !important;
     font-size: 20px;
     margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+    .title{
+        font-size: 15px !important;
+        line-height: 25px !important;
+    }
+    .option{
+        font-size: 13px;
+    }
+    .answerBtn{
+        height: 30px;
+        width: 80px;
+        background-color: #5167C3;
+        color: white;
+        border-radius: 10px;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-size: 14px;
+        box-shadow: none;
+    }
+    .writtenRes{
+        gap: 10px;
+        font-size: 15px;
+    }
 }

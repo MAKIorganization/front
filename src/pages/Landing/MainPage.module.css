@@ -266,6 +266,19 @@
         height: 383px;
     }
 }
+@media (max-width: 580px) {
+    .main_missionSection_description{
+        display: block;
+    }
+    .main_missionSection_description_text{
+        display: flex;
+        align-items: center;
+        margin: 0 auto 10px auto;
+    }
+    .main_missionSection_description_image{
+        margin: 0 auto 0 auto;
+    }
+}
 @media (max-width: 480px) {
     .main_vision_description{
         width: 200px;

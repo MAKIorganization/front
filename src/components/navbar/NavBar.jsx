@@ -24,7 +24,7 @@ function NavBar(){
       }, []);
     return(
         <div className={styles.container}>
-            <BurgerMenu dropdownRef={dropdownRef}/>
+            <BurgerMenu dropdownRef={dropdownRef} className={styles.burgerMenu}/>
             <div className={styles.container_title}>
                 <Link className={styles.link} to="/"><h3>Общественное обьединение садоводов Маки</h3></Link>
             </div>

@@ -41,9 +41,9 @@ function BurgerMenu() {
             {isMenuOpen && (
                 <div className={styles.dropdownMenu}>
                     <div className={styles.dropdownSection}>
-                        <span onClick={toggleDropdown} className={styles.link}>
+                        <Link to="/" onClick={toggleDropdown} className={styles.link}>
                             О нас <span className={styles.icon}>▼</span>
-                        </span>
+                        </Link>
                         {isDropdownOpen && (
                             <div className={styles.submenu}>
                                 <a href="#mission" className={styles.dropdownLink}>Миссия</a>

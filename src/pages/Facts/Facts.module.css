@@ -18,3 +18,15 @@
 .listOfSolutions li{
     font-size: 16px;
 }
+@media (max-width: 768px) {
+    .facts{
+        line-height: 25px;
+    }
+    .aboutEarth h3, .aboutWater h3, .aboutProblems h3, .aboutSolutions h3{
+        font-size: 20px;
+    }
+    .aboutWater p, .aboutEarth ul, .aboutProblems ul, .aboutSolutions ol{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+  }

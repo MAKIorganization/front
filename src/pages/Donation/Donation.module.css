@@ -50,3 +50,68 @@
     font-style: normal;
     color: #333333;
 }
+@media (max-width: 980px) {
+    .bankRequisites{
+        display: flex;
+        justify-content: space-around;
+        width: 750px;
+        margin: 36px auto 45px auto;
+    }
+    .optimaBank img, .mBank img{
+        width: 300px;
+        height: 161px;
+        border-radius: 20px;
+    }
+    .volunteerDonationPrompt{
+        width: 780px;
+    }
+}
+@media (max-width: 768px) {
+    .bankRequisites{
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+        margin: 36px auto 45px auto;
+    }
+    .optimaBank img, .mBank img{
+        width: 180px;
+        height: 121px;
+        border-radius: 20px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .option{
+        font-size: 23px;
+    }
+    .volunteerDonationPrompt{
+        width: 500px;
+    }
+}
+@media (max-width: 480px) {
+    .bankRequisites{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 260px;
+    }
+    .optimaBank, .mBank{
+        margin: 10px auto;
+    }
+    .optimaBank h3, .mBank h3{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .option{
+        font-size: 18px;
+    }
+    .volunteerDonationPrompt{
+        width: 250px;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}

@@ -51,4 +51,9 @@
     display: block;
     margin-bottom: 4px;
   }
+  @media (min-width: 620px) {
+    .burgerMenuWrapper{
+      display: none;
+    }
+  }
   
