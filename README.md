@@ -28,3 +28,4 @@ bash:
 6. kubectl apply -f deployment/frontend-deployment.yaml
 7. kubectl apply -f deployment/frontend-service.yaml
 8. minikube service frontend-service
+![Image](https://github.com/user-attachments/assets/1bfcf701-0ebe-4ce2-8139-eeab3b707e0d)
