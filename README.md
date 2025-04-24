@@ -29,3 +29,6 @@ bash:
 7. kubectl apply -f deployment/frontend-service.yaml
 8. minikube service frontend-service
 ![Image](https://github.com/user-attachments/assets/1bfcf701-0ebe-4ce2-8139-eeab3b707e0d)
+
+It will automatically open the website on your Google Chrome
+![Image](https://github.com/user-attachments/assets/49248837-260b-4ed6-9b92-5214e3aa774c)
