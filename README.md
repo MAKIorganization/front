@@ -21,6 +21,7 @@ Prerequisites:
 bash:
 1. npm i
 2. minikube start
+![Alt text](C:\Users\User\OneDrive\Изображения\Screenshots\Снимок экрана (68))
 3. docker build -t orozobekovt/front:latest
 4. minikube image load orozobekovt/front:latest
 5. cd k8s/
