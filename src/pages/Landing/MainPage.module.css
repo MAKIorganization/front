@@ -138,6 +138,10 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
 }
+.main_socialMedia_desc p a{
+    text-decoration: none;
+    color: #333333;
+}
 @media (min-width: 1200px) {
     .main_vision_description{
         width: 1200px;

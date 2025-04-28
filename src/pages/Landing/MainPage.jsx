@@ -61,7 +61,9 @@ function MainPage() {
             </h2>
             <div className={styles.main_socialMedia_desc}>
                 <img src={instagram_icon} alt="" />
-                <p>@maki.kg</p>
+                <p>
+                    <a href="https://www.instagram.com/oos_maki/">@oos_maki</a>
+                </p>
             </div>
         </section>
     </>

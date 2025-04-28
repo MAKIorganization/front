@@ -16,25 +16,18 @@
     width: 1050px;
     margin: 36px auto 45px auto;
 }
-.optimaBank, .mBank{
+.bank{
     padding: 40px 30px;
     border-radius: 20px;
-    color: white;
+    color: #333333;
     font-family: "Roboto", sans-serif;
     font-style: normal;
 }
-.optimaBank{
-    background-color: #F55555;
+.bank img{
+    width: 300px;
+    height: 190px;
 }
-.mBank{
-    background-color: #017F8D;
-}
-.optimaBank img, .mBank img{
-    width: 450px;
-    height: 221px;
-    border-radius: 20px;
-}
-.optimaBank h3, .mBank h3{
+.bank h3{
     margin-top: 16px;
 }
 .title{
@@ -57,10 +50,9 @@
         width: 750px;
         margin: 36px auto 45px auto;
     }
-    .optimaBank img, .mBank img{
+    .optimaBank img{
         width: 300px;
-        height: 161px;
-        border-radius: 20px;
+        height: 190px;
     }
     .volunteerDonationPrompt{
         width: 780px;
@@ -73,10 +65,9 @@
         width: 500px;
         margin: 36px auto 45px auto;
     }
-    .optimaBank img, .mBank img{
+    .bank img{
         width: 180px;
         height: 121px;
-        border-radius: 20px;
     }
     .title{
         font-size: 30px;
@@ -95,10 +86,10 @@
         align-items: center;
         width: 260px;
     }
-    .optimaBank, .mBank{
+    .bank{
         margin: 10px auto;
     }
-    .optimaBank h3, .mBank h3{
+    .bank h3{
         margin-top: 10px;
         font-size: 14px;
     }
