@@ -19,15 +19,18 @@ Prerequisites:
 - Kubectl https://kubernetes.io/docs/tasks/tools/
 
 bash:
-1. npm i
-2. minikube start
+1. git clone 
+   clone the repository
+2. npm i
+3. Open docker desktop
+4. minikube start
 ![Image](https://github.com/user-attachments/assets/20f82874-7997-4ff9-9dfa-e8d1f94c8067)
-3. docker build -t orozobekovt/front:latest .
-4. minikube image load orozobekovt/front:latest
-5. cd k8s/
-6. kubectl apply -f frontend-deployment.yaml
-7. kubectl apply -f frontend-service.yaml
-8. minikube service frontend-service
+5. docker build -t orozobekovt/front:latest .
+6. minikube image load orozobekovt/front:latest
+7. cd k8s/
+8. kubectl apply -f frontend-deployment.yaml
+9. kubectl apply -f frontend-service.yaml
+10. minikube service frontend-service
 ![Image](https://github.com/user-attachments/assets/1bfcf701-0ebe-4ce2-8139-eeab3b707e0d)
 
 It will automatically open the website on your Google Chrome
