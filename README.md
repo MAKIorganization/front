@@ -19,8 +19,7 @@ Prerequisites:
 - Kubectl https://kubernetes.io/docs/tasks/tools/
 
 bash:
-1. git clone 
-   clone the repository
+1. git clone https://github.com/MAKIorganization/front.git
 2. npm i
 3. Open docker desktop
 4. minikube start
