@@ -34,3 +34,6 @@ bash:
 
 It will automatically open the website on your Google Chrome
 ![Image](https://github.com/user-attachments/assets/49248837-260b-4ed6-9b92-5214e3aa774c)
+
+Video that shows how it works: https://youtu.be/q6XTGEnx0Rg
+
