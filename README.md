@@ -1,15 +1,10 @@
-# React + Vite
+## Video/demonstration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Video that shows how it works: https://youtu.be/q6XTGEnx0Rg
 
-Currently, two official plugins are available:
+## Actual website of the organization
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://maki.el.kg/
 
 ## To start K8s deployment
 
@@ -34,8 +29,4 @@ bash:
 
 It will automatically open the website on your Google Chrome
 ![Image](https://github.com/user-attachments/assets/49248837-260b-4ed6-9b92-5214e3aa774c)
-
-## Video/demonstration
-
-Video that shows how it works: https://youtu.be/q6XTGEnx0Rg
 
